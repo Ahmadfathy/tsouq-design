@@ -28837,3 +28837,8 @@ ul.radio-btn li input[type=radio]:checked ~ label{
 .days-slider .owl-nav button.owl-next {
   right: -20px !important;
 }
+.services-provider .rounded-img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
