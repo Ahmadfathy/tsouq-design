@@ -28842,3 +28842,9 @@ ul.radio-btn li input[type=radio]:checked ~ label{
   height: 120px;
   margin: auto;
 }
+.red-color {
+  color: #ff9b9b;
+}
+a.red-color:hover {
+  color: #ff3535; 
+}
