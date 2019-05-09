@@ -28848,3 +28848,43 @@ ul.radio-btn li input[type=radio]:checked ~ label{
 a.red-color:hover {
   color: #ff3535; 
 }
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.rounded-5 {
+  border-radius: 5px;
+}
+.font-sm .profile-details h5,
+.font-sm .profile-details p,
+.font-sm .profile-details p i,
+.font-sm .profile-details a i,.font-sm .profile-details h6 {
+  font-size: 90% !important;
+}
+.pl0 {
+  padding-left: 0;
+}
+.pagination-custom {
+  margin: 60px auto 0;
+}
+.pagination-custom li {
+  margin: auto;
+}
+.pagination-custom li a {
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  display: block;
+  padding: 0;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.pagination-custom li a i {
+  font-size: 140%;
+}
+.pagination-custom li a.active {
+  background-color: #08c6f2;
+  color: #FFF;
+}
