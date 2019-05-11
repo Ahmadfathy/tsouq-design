@@ -26989,8 +26989,18 @@ html[dir="rtl"] .flatpickr-months .flatpickr-month {
   max-width: 100%;
   height: auto
 }
-
-.navbar__social,
+.navbar__social {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+.navbar__social li {
+  display: inline-block;
+}
+.navbar__social li a {
+  
+}
 .navbar__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27046,11 +27056,8 @@ html[dir="rtl"] .flatpickr-months .flatpickr-month {
   height: 30px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.15);
-  font-size: .875rem
-}
-
-.navbar__social li:not(:last-child) {
-  margin-right: 1rem
+  font-size: .875rem;
+  margin: 0 0.5rem;
 }
 
 @media (max-width: 767.98px) {
@@ -28805,7 +28812,11 @@ ul.radio-btn li input[type=radio]:checked ~ label{
   padding: 7px;
 }
 .day-block li a{
-
+  border-bottom: 2px solid transparent;
+}
+.day-block li a.active-day {
+  border-bottom: 2px solid #0199bc;
+  color: #0199bc;
 }
 .width-100 {
   width: 100%;
@@ -28848,6 +28859,9 @@ ul.radio-btn li input[type=radio]:checked ~ label{
 a.red-color:hover {
   color: #ff3535; 
 }
+.active-red-color {
+  color: #ff0606;
+}
 img {
   width: 100%;
   max-width: 100%;
@@ -28857,9 +28871,8 @@ img {
 }
 .font-sm .profile-details h5,
 .font-sm .profile-details p,
-.font-sm .profile-details p i,
-.font-sm .profile-details a i,.font-sm .profile-details h6 {
-  font-size: 90% !important;
+.font-sm .profile-details p i {
+  font-size: 80% !important;
 }
 .pl0 {
   padding-left: 0;
@@ -28887,4 +28900,76 @@ img {
 .pagination-custom li a.active {
   background-color: #08c6f2;
   color: #FFF;
+}
+.your-country {
+  color: #FFF;
+  font-size: 0.850rem;
+  line-height: 2.2;
+}
+.your-country span {
+  margin: 0 10px;
+}
+.your-country img {
+  width: 24px;
+}
+.addons li {
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.addons li a {
+  display: block;
+  text-align: center;
+}
+.addons li a img {
+  width: 36px;
+}
+.addons li a.cart {
+  position: relative;
+}
+.addons li a.cart:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: '';
+  height: 100%;
+  width: 1px;
+  background-color: #EEE;
+}
+.addons li a.lang-flag {
+  
+}
+.addons li a.lang-flag img {
+  width: 30px;
+  margin-top: 8px;
+}
+
+.grid-list-switcher {
+  margin: 20px 0 10px;
+}
+.grid-list-switcher a {
+  transition: all 0.5s ease-in-out;
+  color: #CCC;
+  font-size: 1.5rem;
+  margin: 0 5px;
+}
+.grid-list-switcher a.active {
+  color: #08c6f2;
+}
+.grid .grid-view,
+.grid .list-view {
+  transition: all 0.5s ease-in-out;
+}
+.grid .grid-view{
+  display: block;
+}
+.grid .list-view{
+  display: none;
+}
+.list .grid-view{
+  display: none;
+}
+.list .list-view{
+  display: block;
 }
