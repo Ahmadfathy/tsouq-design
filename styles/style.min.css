@@ -558,6 +558,7 @@ mark,
 
 .img-fluid,
 .partners__logo img {
+  width: 100%;
   max-width: 100%;
   height: auto
 }
@@ -28862,10 +28863,10 @@ a.red-color:hover {
 .active-red-color {
   color: #ff0606;
 }
-img {
+/* img {
   width: 100%;
   max-width: 100%;
-}
+} */
 .rounded-5 {
   border-radius: 5px;
 }
@@ -28972,4 +28973,9 @@ img {
 }
 .list .list-view{
   display: block;
+}
+.prgrph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #777;
 }
